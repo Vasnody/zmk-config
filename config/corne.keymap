@@ -23,7 +23,7 @@
 &kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y  &kp U             &kp I              &kp O    &kp P     &kp BSPC
 &kp TAB     &kp A  &kp S  &kp D  &kp F  &kp G        &kp H  &kp J             &kp K              &kp L    &kp SEMI  &kp SQT
 &kp LSHFT   &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N  &kp M             &kp COMMA          &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                          &mo 5  &to 1  &kp SPACE    &mo 7  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+                          &mo 2  &to 1  &kp SPACE    &mo 4  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
@@ -38,34 +38,7 @@
 &kp ESCAPE  &kp Q  &kp W  &kp F  &kp P  &kp B        &kp J  &kp L             &kp U              &kp Y       &kp SEMICOLON  &kp BSPC
 &kp TAB     &kp A  &kp R  &kp S  &kp T  &kp G        &kp M  &kp N             &kp E              &kp I       &kp O          &kp SQT
 &kp LSHFT   &kp Z  &kp X  &kp C  &kp D  &kp V        &kp K  &kp H             &kp COMMA          &kp PERIOD  &kp SLASH      &kp RIGHT_SHIFT
-                          &to 0  &to 0  &kp SPACE    &mo 7  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-            >;
-        };
-
-        layer_2 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+                          &to 0  &to 0  &kp SPACE    &mo 4  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
@@ -83,7 +56,7 @@
 &kp TAB    &kp N1        &kp N2       &kp N3         &kp N4             &kp N5           &kp N6        &kp N7             &kp N8           &kp N9        &kp N0     &kp DEL
 &kp LSHFT  &kp LS(EXCL)  &kp LS(SQT)  &kp LS(POUND)  &kp SEMICOLON      &kp LS(PRCNT)    &kp LS(STAR)  &kp LS(LPAR)       &kp LS(RPAR)     &kp LS(PLUS)  &kp MINUS  &kp ENTER
 &kp LCTRL  &kp LGUI      &kp LALT     &kp F11        &kp LS(SEMICOLON)  &trans           &kp BSPC      &kp LS(SLASH)      &kp LALT         &trans        &trans     &kp RIGHT
-                                      &trans         &trans             &kp SPACE        &mo 7         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+                                      &trans         &trans             &kp SPACE        &mo 4         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
 
@@ -92,7 +65,7 @@
 &kp TAB    &kp N1        &kp N2      &kp N3         &kp N4         &kp N5           &kp N6        &kp N7             &kp N8           &kp N9        &kp N0     &kp DEL
 &kp LSHFT  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)    &kp LS(STAR)  &kp LS(LPAR)       &kp LS(RPAR)     &kp LS(PLUS)  &kp MINUS  &kp ENTER
 &kp LCTRL  &kp LGUI      &kp LALT    &kp F11        &kp LS(CARET)  &trans           &kp BSPC      &kp LS(AMPS)       &kp LALT         &trans        &trans     &kp RIGHT
-                                     &trans         &trans         &kp SPACE        &mo 7         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+                                     &trans         &trans         &kp SPACE        &mo 4         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
     };
